@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alejandro/Documents/Workspace/typetraits-Mandarine2312/list.h
+node.h
+/home/alejandro/Documents/Workspace/typetraits-Mandarine2312/node.h
+
+/home/alejandro/Documents/Workspace/typetraits-Mandarine2312/main.cpp
+iostream
+-
+test/tester.h
+/home/alejandro/Documents/Workspace/typetraits-Mandarine2312/test/tester.h
+
+/home/alejandro/Documents/Workspace/typetraits-Mandarine2312/mock/mocker.h
+random
+-
+type_traits
+-
+
+/home/alejandro/Documents/Workspace/typetraits-Mandarine2312/node.h
+
+/home/alejandro/Documents/Workspace/typetraits-Mandarine2312/test/tester.cpp
+tester.h
+/home/alejandro/Documents/Workspace/typetraits-Mandarine2312/test/tester.h
+
+/home/alejandro/Documents/Workspace/typetraits-Mandarine2312/test/tester.h
+stdexcept
+-
+iostream
+-
+assert.h
+-
+../mock/mocker.h
+/home/alejandro/Documents/Workspace/typetraits-Mandarine2312/mock/mocker.h
+../list.h
+/home/alejandro/Documents/Workspace/typetraits-Mandarine2312/list.h
+
