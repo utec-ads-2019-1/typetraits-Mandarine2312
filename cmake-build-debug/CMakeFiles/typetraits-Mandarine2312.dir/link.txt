@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/typetraits-Mandarine2312.dir/main.cpp.o CMakeFiles/typetraits-Mandarine2312.dir/test/tester.cpp.o CMakeFiles/typetraits-Mandarine2312.dir/mock/mocker.cpp.o  -o typetraits-Mandarine2312 
