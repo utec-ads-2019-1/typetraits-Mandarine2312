@@ -73,9 +73,9 @@ class List {
             auto whereToRemove = &head;
             if (find(data, whereToRemove)) {
                 if ((*whereToRemove) == head) {
-                    auto temp = head;
                     head = head->next;
-                    delete temp;
+                    whereToRemove = &(head->prev);
+                    delete *whereToRemove;
                     nodes--;
                 } else {
                     (*whereToRemove)->prev->next = (*whereToRemove)->next;
