@@ -77,6 +77,7 @@ class List {
                     whereToRemove = &(head->prev);
                     delete *whereToRemove;
                     nodes--;
+                    // Falta return
                 } else {
                     (*whereToRemove)->prev->next = (*whereToRemove)->next;
                     (*whereToRemove)->next->prev = (*whereToRemove)->prev;
