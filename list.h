@@ -104,6 +104,7 @@ class List {
         }
 
         ~List() {
+	    // Falta validar que head no sea null cuando es una lista vacía
             head->killSelf();
         }         
 };
